@@ -7,6 +7,18 @@
     <string>Ionicons.ttf</string>
   </array>
 
+  <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+  <string>Necesito tu ubicación para mostrar el mapa</string>
+  <key>NSLocationTemporaryUsageDescriptionDictionary</key>
+  <dict>
+    <key>YOUR-PURPOSE-KEY</key>
+    <string>Necesito tu ubicación para mostrar el mapa</string>
+  </dict>
+  <key>NSLocationWhenInUseUsageDescription</key>
+  <string>Necesito tu ubicación para mostrar el mapa</string>
+
+
+
 
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
