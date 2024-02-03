@@ -11,6 +11,7 @@
     "start:ios": "npm run ios -- --udid='039C148B-4C12-4427-BB25-5C50055A0455'"
   },
   "dependencies": {
+    "@react-native-community/geolocation": "^3.1.0",
     "@react-native-masked-view/masked-view": "^0.3.1",
     "@react-navigation/native": "^6.1.9",
     "@react-navigation/stack": "^6.3.20",
