@@ -12,7 +12,7 @@ node_require('react-native-permissions/scripts/setup.rb')
 
 
 
-platform :ios, min_ios_version_supported
+platform :ios, '13.4'
 prepare_react_native_project!
 
 
@@ -59,7 +59,13 @@ if linkage != nil
 end
 
 target 'mapsapp' do
+  
+  rn_maps_path = '../node_modules/react-native-maps'
+  pod 'react-native-google-maps', :path => rn_maps_path
+  
   config = use_native_modules!
+
+
 
   use_react_native!(
     :path => config[:reactNativePath],
